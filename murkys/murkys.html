@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="murkys.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="murkys.js"></script>
+    <title>THE WEBSITE GAME</title>
+
+</head>
+<body>
+    <div id="containerBox">
+        <div id="cart" onclick="funcCart()">
+            <div id="cartText">CART</div>
+            <div id="cartPic">
+                <img src="../imgs/cart.png" style="height:90%; width:100%;">
+            </div>
+        </div>
+        <div id="cartItems">
+
+        </div>
+
+        <div class="gurky" onclick="gurkysPage()" style="left:2%;transform:translate(0,-50%);">
+            <div class="gurkyTextBox" style="top:30%;">
+                GURKY ANGLERS
+            </div>
+            <div class="gurkyTextBox" style="top:90%">
+                DEEP SEA ADVENTURES
+            </div>
+            <img src="../imgs/gurky.png" style="height:100%; width:auto;">
+        </div>
+        <div id="mbigBox">
+            <img src="../imgs/murky.png" style="height:30%;width:auto;">
+            <div id="mtitleText">MURKYS FISHIES</div>
+            <div id="fishContainer">
+                <div id="catfish">
+                    <img src="../imgs/fishies/catfish.jpeg" id="catfishPic" style="height:100%;">
+                    <div class="cartBox" id="cartCatfish" onclick="addCart(1)">ADD TO CART</div>
+                    
+                </div>
+                <div id="alligatorGar">
+                    <img src="../imgs/fishies/alligatorGar.jpeg" id="garPic" style="height:100%;">
+                    <div class="cartBox" id="cartGar" onclick="addCart(2)">ADD TO CART</div>
+                </div>
+                <div id="gadda">
+                    <img src="../imgs/fishies/gadda.jpeg" id="gaddaPic" style="height:100%;">
+                    <div class="cartBox" id="cartGadda" onclick="addCart(3)">ADD TO CART</div>
+                </div>
+                <div id="abborre">
+                    <img src="../imgs/fishies/abborre.jpeg" id="abborrePic" style="height:100%;">
+                    <div class="cartBox" id="cartAbborre" onclick="addCart(4)">ADD TO CART</div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="gurky" onclick="gurkysPage()" style="left:98%;transform:translate(-100%,-50%);">
+            <div class="gurkyTextBox" style="top:30%;">
+                GURKY ANGLERS
+            </div>
+            <div class="gurkyTextBox" style="top:90%">
+                DEEP SEA ADVENTURES
+            </div>
+            <img src="../imgs/gurky.png" style="height:100%; width:auto;">
+        </div>
+    </div>  
+
+
+</body>
+</html>

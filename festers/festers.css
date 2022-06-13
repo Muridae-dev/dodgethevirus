@@ -1,0 +1,184 @@
+@font-face {
+    font-family: spookyFont;
+    src: url("../fonts/HallowenInline.ttf");
+}
+
+@font-face {
+    font-family: utherFont;
+    src: url("../fonts/Halloween\ Night.otf");
+}
+
+html,body {
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    font-family: spookyFont;
+}
+
+
+
+#containerBox {
+    height:100%;
+    width:100%;
+
+    background:black;
+
+}
+/*________________________________________*/
+
+
+#festerBox {
+    height:40%;
+    width:20%;
+    text-align:center;
+
+    position:relative;
+    top:30%;
+    left:40%;
+    animation-duration: 2s;
+
+    z-index: 1;
+
+}
+
+    #festerBox:hover {
+        animation-name: spinFast;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes spinFast {
+        0% {transform: rotate(0deg); }
+        50% {transform: rotate (360deg);}
+        100% {transform: rotate(720deg);}
+    }
+/*________________________________________*/
+
+
+.pumpkinBox1 {
+    height:20%;
+    width:20%;
+    text-align:center;
+
+    position:absolute;
+    top:10%;
+    left:10%;
+    transform:rotate(-30deg);
+    z-index: 1;
+}
+
+.pumpkinBox2 {
+    height:20%;
+    width:20%;
+    text-align:center;
+
+    position:absolute;
+    top:10%;
+    left:70%;
+    transform:rotate(30deg);
+    z-index: 1;
+}
+
+    .active {
+        height:30%;
+        width:30%;
+    }
+/*________________________________________*/
+
+
+#textBox {
+    height:8%;
+    width:60%;
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,0);
+    text-align:center;
+    color:white;
+    font-size:300%; 
+    z-index: 1;
+    user-select: none;
+
+    
+}
+/*________________________________________*/
+
+.skeletonBox {
+    height:20%;
+    width:10%;
+    background-image: url("../imgs/skeletal.gif");
+    background-size:cover;
+    background-position:center;
+    position:absolute;
+    z-index:0;
+}
+/*________________________________________*/
+
+#clickBox {
+    height:7%;
+    width:20%;
+    position:absolute;
+    color:white;
+    font-size:200%;
+    background-image:url("../imgs/fire.gif");
+    background-size:40%;
+    background-position-y: center;
+    z-index: 2;
+
+}
+
+/*________________________________________*/
+
+#theoBox {
+    height:5%;
+    width:2%;
+    position:absolute;
+    top:60%;
+    left:75%;
+    text-align:center;
+
+}
+
+#theoTextBox {
+    height:30%;
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    font-size:50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+/*________________________________________*/
+
+#utherBox {
+    height:10%;
+    width:70%;
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    background-image: url("../imgs/utherun.png");
+    background-size: inherit;
+    background-position-x: center;
+    background-position-y: 42%;
+    background-repeat: no-repeat;
+
+}
+
+#textBoxUther {
+    height:50%;
+    width:60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    font-size:300%;
+    font-family:utherFont;
+    text-align: center;
+    color:red;
+    text-shadow: 2px 2px black;
+}

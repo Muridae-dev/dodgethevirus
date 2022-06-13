@@ -1,0 +1,144 @@
+@font-face {
+    font-family: occultFont;
+    src: url("../fonts/Halloween\ Night.otf");
+}
+html,body {
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+
+#containerBox {
+    height:100%;
+    width:100%;
+
+}
+
+
+.minusPlusBox {
+    height:5%;
+    width:5%;
+    background:tomato;
+    font-size:250%;
+    position:absolute;
+    text-align: center;
+    z-index:1;
+}
+
+#minusBox {
+    top: 90%;
+    left:86%;
+
+}
+
+#plusBox {
+    top:90%;
+    left:93%;
+}
+
+    #scaleTainer {
+        height:100%;
+        width:100%;
+        transform:scale(0.1);
+    }
+
+        #headerBox {
+            height:10%;
+            width:100%;
+            position:relative;
+            top:5%;
+
+            text-align:center;
+            font-size:300%;
+            
+
+        }
+
+        #contentBox {
+            height:70%;
+            width:60%;
+            position:relative;
+
+            top:5%;
+            left:50%;
+            transform:translate(-50%, 0);
+            border:1px black solid;
+            font-size:150%;
+            text-align:center;
+            padding:2%;
+        }
+
+            #murkyBox {
+                height:30%;
+                width:auto;
+                position:absolute;
+                top:95%;
+                left:0%;
+                transform:translate(0,-100%)
+            }
+
+            #picBox {
+                height:30%;
+                width:auto;
+                position:absolute;
+                top:95%;
+                left:95%;
+                transform:translate(-100%,-100%)
+            }
+
+#hoggerBox {
+    height:10%;
+    width:60%;
+    position:absolute;
+    background:cornflowerblue;
+    background-image: url("../imgs/hogger.png");
+    background-size:inherit;
+    background-position-y: 45%;
+    background-position-x: center;
+    top:95%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    }
+    
+    #textBoxHogger {
+        height:auto;
+        width:50%;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        text-align: center;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        color:rgb(255, 102, 0);
+        font-size:150%;
+    }
+
+#occultBox {
+    height:10%;
+    width:60%;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,0);
+    background-image: url("../imgs/hell.png");
+    background-size:inherit;
+    background-position-y: 58%;
+    background-position-x: center;
+}
+
+    #textBoxOccult {
+        height:auto;
+        width:60%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+
+        font-size:300%;
+        font-family:occultFont;
+        text-align: center;
+        color:red;
+        text-shadow: 2px 2px black;
+    }

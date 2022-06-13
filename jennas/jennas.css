@@ -1,0 +1,119 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+#containerBox {
+    height:175%;
+    width:100%;
+    z-index:1;
+
+}
+
+.logoBox {
+    
+    height:auto;
+    width:80%;
+
+    text-align:center;
+    position:relative;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,0);
+
+    opacity:0.1;
+    transition: opacity 2s;
+}
+
+
+
+    #textBox {
+        width:100%;
+        height:auto;
+
+        font-size:300%;
+        color:rgb(20, 220, 187);
+        text-shadow:2px 2px rgb(9, 132, 136);
+        position:absolute;
+        top:50%;
+        translate: transform(-50%, 0);
+        z-index: 1;
+    }
+    #picBox {
+        height:auto;
+        width:100%;
+        z-index:0;
+
+
+    }
+
+
+
+.jBox1 {
+    height:auto;
+    width:80%;
+
+    text-align:center;
+    position:relative;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,0);
+
+    transition: opacity 2s;
+    opacity:0.1;
+}
+
+    .blur {
+        filter:blur(4px);
+        
+    }
+
+
+    .textBox2 {
+        width:100%;
+        height:auto;
+
+        font-size:300%;
+        color:rgb(20, 220, 187);
+        text-shadow:2px 2px rgb(9, 132, 136);
+        position:absolute;
+        top:50%;
+        translate: transform(-50%, 0);
+        z-index: 1;
+        opacity:0;
+        transition: opacity 0.5s;
+    }
+
+
+    .sponsoreBox {
+        height:30%;
+        width:20%;
+        position:absolute;
+        top:50%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+        opacity:1;
+        transition: opacity 0.5s;
+
+        background:rgba(31, 50, 102, 0.712);
+    }
+
+    .active {
+        opacity:1;
+    }
+
+    .sponsoreText {
+        font-size:200%;
+        color:rgb(20, 220, 187);
+        text-shadow:2px 2px rgb(9, 132, 136);
+        position:relative;
+        top:50%;
+        transform:translate(0,-50%);
+
+    }
+
+
+    .inview {
+        opacity:1;
+    }

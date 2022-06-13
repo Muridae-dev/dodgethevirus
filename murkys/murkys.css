@@ -1,0 +1,186 @@
+@font-face {
+    font-family: waterFont;
+    src: url("../fonts/Nau\ Sea.otf");
+}
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    background:black;
+}
+
+img {
+    margin:auto;
+    display:block;
+}
+
+#cart {
+    height:5%;
+    width:10%;
+    background:rgb(5, 224, 5);
+    position:absolute;
+    top:0;
+    left:95%;
+    transform:translate(-100%,0);
+}
+    #cartText {
+        height:auto;
+        width:auto;
+        position:absolute;
+        top:50%;
+        left:10%;
+        transform:translate(0,-50%);
+    }
+
+    #cartPic {
+        height:100%;
+        width:30%;
+        float:right;
+        position:relative;
+        right:5%;
+
+    }
+    
+    #cartItems {
+        height:auto;
+        width:20%;
+        position:absolute;
+        top:5%;
+        left:100%;
+        transform: translate(-100%,0);
+        display:none;
+        z-index: 1;
+
+    }
+    #cartItems.active {
+        display:initial;
+    }
+
+    .item {
+        height:100px;
+        width:90%;
+        padding:5%;
+        background:lavenderblush;
+    }
+
+    .itemText {
+        height:auto;
+        width:auto;
+        position:relative;
+        top:50%;
+        left:2%;
+        transform:translate(0,-50%);
+    }
+
+#containerBox {
+    height:100%;
+    width:100%;
+}
+
+#mbigBox {
+    height:100%;
+    width:60%;
+    margin:auto;
+    background:blue;
+    position:relative;
+}
+
+#mtitleText {
+    margin:auto;
+    text-align: center;
+    color:khaki;
+    font-size:50px;
+}
+
+#fishContainer {
+    height:60%;
+    width:100%;
+    position: absolute;
+    top:100%;
+    left:0;
+    transform: translate(0,-100%);
+}
+
+    #catfish {
+        height:45%;
+        width:auto;
+        position:absolute;
+        top:0%;
+        left:90%;
+        transform: translate(-100%,0);
+    }
+
+    #alligatorGar {
+        height:40%;
+        width:auto;
+        position:absolute;
+        top:0%;
+        left:5%;
+    }
+
+    #gadda {
+        height:45%;
+        width:auto;
+        position:absolute;
+        top:50%;
+        left:90%;
+        transform: translate(-100%,0);
+    }
+
+    #abborre {
+        height:40%;
+        width:auto;
+        position:absolute;
+        top:50%;
+        left:10%;
+    }
+
+.cartBox {
+    padding:5%;
+    width: 60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    
+
+    background:rgb(5, 224, 5);
+    text-align:center;
+    transition:opacity 0.5s;
+}
+
+.gurky {
+    height:40%;
+    width:auto;
+    position:absolute;
+    top:50%;
+    z-index:0;
+}
+
+.gurkyTextBox {
+    width:100%;
+    height:auto;
+    position:absolute;
+    
+    transform:translate(0,-50%);
+
+    text-align:center;
+    font-family: waterFont;
+    color:rgb(0, 247, 255);
+    text-shadow: 2px 2px black;
+    font-size:200%;
+    opacity:0.9;
+}
+
+/*_________________________________*/
+
+.blur {
+    filter:blur(3px);
+    
+}
+
+.active {
+    opacity:1;
+}

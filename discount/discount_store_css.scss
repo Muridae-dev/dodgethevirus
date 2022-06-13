@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+#dtopBox1 {
+    height:10%;
+    width:100%;
+    background:tomato;
+}
+
+#dlogoBox {
+    position:relative;
+    left:15%;
+
+    background:turquoise;
+    height:100%;
+    width:15%;
+
+
+}
+
+#dtopBox2 {
+    height:10%;
+    width:70%;
+    padding:1%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-flow:row wrap;
+    align-items:stretch;
+
+    background:violet;
+    margin:auto;
+}
+
+.dstandforBox {
+    height:100%;
+    flex:1 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    background:yellow;
+}
+
+#dbigBox1 {
+    margin:auto;
+    margin-top:10px;
+
+    height:50%;
+    width:70%;
+    background:cornflowerblue;
+}
+
+#dbigBox2 {
+    height:40%;
+    width:calc(70% - 20px);
+    background:darkblue;
+
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+
+    padding-left:10px;
+    padding-right:10px;
+    
+    margin:auto;
+    margin-top:10px;
+}
+
+.dlogoBox {
+
+    height:80%;
+    flex:1 0 auto;
+    margin-left:10px;
+    margin-right:10px;
+    background:darkorange;
+
+}
+    
+
+#dbrandBox {
+    height:5%;
+    width:70%;
+    background:darkmagenta;
+
+    margin:auto;
+    margin-top:10px;
+}
+
+
+    /*
+RESPONSIVENESS
+#dbigtextBox {
+    height:10%;
+    width:50%;
+    margin:auto;
+    text-align:center;
+    font-size: 4vw;
+    background:yellowgreen;
+
+
+}
+
+#dbigtextBox:active {
+    animation:spinFast 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinFast {
+    0% {transform: rotate(0deg); margin-left:0px;}
+    50% {transform: rotate (360deg); margin-left:100%;}
+    100% {transform: rotate(720deg); margin-left:0%;}
+}
+
+@media screen and (max-width:700px) {
+    #dbigtextBox {
+        font-size: 40px;
+    }
+    
+}*/

@@ -1,0 +1,246 @@
+@font-face {
+    font-family: graffitiFont;
+    src: url("../fonts/aAnotherTag.ttf");
+}
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+
+#textBox {
+    height:10%;
+    width:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    text-align:center;
+    color:red;
+    font-size:400%;
+    font-family: graffitiFont;
+    text-shadow:2px 2px rgb(99, 0, 119);
+}
+
+.hintText {
+    color:yellow;
+}
+
+#containerBox {
+    height:100%;
+    width:100%;
+    background-image:url("../imgs/hHbackground.jpeg");
+    background-size:cover;
+    background-position: center;
+
+}
+
+#hpicBox{
+    height:60%;
+    width:30%;
+    
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #hpicBox.inactive {
+        left:250%;
+    }
+
+
+#hpicBoxFreddie{
+    height:60%;
+    width:30%;
+    
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:250%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #hpicBoxFreddie.active {
+        left:50%;
+    }
+
+
+#festersBox {
+    height:40%;
+    width:auto;
+    position:absolute;
+    top:60%;
+    left:0%;
+
+}
+
+#murkyBox {
+    height:30%;
+    width:20%;
+    position:absolute;
+    top:100%;
+    left:250%;
+    transition:left 4s;
+    transform: translate(-100%,-100%);
+}
+
+#murkyBox.active {
+    left:100%;
+}
+
+
+
+
+/*______________________________bigge smalls*/
+#button1{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+    top:50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button1.inactive {
+        left:225%;
+    }
+
+#button2{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+    top:50%;
+    left:75%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button2.inactive {
+        left:275%;
+    }
+
+
+#button3{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button3.inactive {
+        left:250%;
+    }
+
+#button4{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button4.inactive {
+        left:250%;
+    }
+
+/*______________________________freddie gibbs*/
+
+#button1F{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+
+    top:50%;
+    left:225%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button1F.active {
+        left:25%;
+    }
+
+
+#button2F{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+
+    top:50%;
+    left:275%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button2F.active {
+        left:75%;
+    }
+
+
+#button3F{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+
+    top:90%;
+    left:250%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button3F.active {
+        left:50%;
+    }
+
+#button4F{
+    height:5%;
+    width:10%;
+    background:blue;
+
+    position:absolute;
+
+    top:10%;
+    left:250%;
+    transform: translate(-50%, -50%);
+
+    transition:left 4s;
+}
+
+    #button4F.active {
+        left:50%;
+    }
+

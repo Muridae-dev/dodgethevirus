@@ -1,0 +1,33 @@
+/*ANIMATIONS*/
+@keyframes fadeInBox {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    background-image:url("../imgs/hell.png");
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+}
+
+#containerBox {
+    height:100%;
+    width:100%;
+}
+
+.terrorBox {
+    height:80%;
+    width:60%;
+
+}
+
+
+@keyframes spinFast {
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(360deg)}
+    100% {transform: rotate(720deg)}
+}

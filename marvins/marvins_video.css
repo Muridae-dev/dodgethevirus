@@ -1,0 +1,80 @@
+@font-face {
+  font-family: graffitiFont;
+  src: url("../fonts/aAnotherTag.ttf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #containerBox {
+    height:100%;
+    width:100%;
+  }
+
+  .vbox1 {
+    height:30%;
+    width:32%;
+    float:left;
+    margin-left:1%;
+    margin-top:7%;
+    background:tomato;  
+  }
+
+#hiphopBox {
+  height:10%;
+  width:60%;
+  position:absolute;
+  background:chartreuse;
+  left:50%;
+  transform: translate(-50%,0);
+  background-image: url("../imgs/biggie.png");
+  background-size:inherit;
+  background-position-y:55%;
+  background-position-x:35%;
+}
+
+#textBoxBiggie {
+  height:auto;
+  width:50%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  color:rgb(255, 124, 16);
+  font-size:500%;
+  text-shadow: 2px 2px rgb(173, 68, 6);
+  font-family: graffitiFont;
+}
+
+
+#hoggerBox {
+  height:10%;
+  width:60%;
+  position:absolute;
+  background:cornflowerblue;
+  background-image: url("../imgs/hogger.png");
+  background-size:inherit;
+  background-position-y: 45%;
+  background-position-x: center;
+  top:95%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+#textBoxHogger {
+  height:100%;
+  width:30%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color:greenyellow;
+  font-size:150%;
+}

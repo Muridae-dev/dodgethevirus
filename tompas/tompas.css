@@ -1,0 +1,230 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    background:black;
+    overflow:hidden;
+}
+
+#containerBox {
+    height:100%;
+    width:100%;
+    background-image:url("../imgs/iljul1.png");
+    background-size:100%;
+    background-position-y:65%;
+    display:none;
+
+}
+
+#welcomeText {
+    height:auto;
+    width:60%;
+    background:tomato;
+    
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    text-align:center;
+    font-size: 250%;
+    color:white;
+}
+
+#smallBox1 {
+    height:5%;
+    width:10%;
+    background:tomato;
+
+    position:absolute;
+    top:25%;
+    left:20%;
+
+    transition: top 0.5s ease-in-out, left 0.8s ease-in-out 0.8s, width 0.8s ease-in-out 0.8s, height 0.8s ease-in-out 0.8s;
+
+}
+
+    #innersmallBox1 {
+        height:70%;
+        width:70%;
+
+        position:relative;
+        top:10%;
+        left:50%;
+        transform: translate(-50%, 0);
+        background:turquoise;
+        opacity:0;
+
+        transition: opacity 0.5s ease-in-out 0s;
+
+
+    }
+
+#smallBox2 {
+    height:5%;
+    width:10%;
+    background:tomato;
+
+    position:absolute;
+    top:35%;
+    left:20%;
+
+    transition: top 0.5s ease-in-out, left 0.8s ease-in-out 0.8s, width 0.8s ease-in-out 0.8s, height 0.8s ease-in-out 0.8s;
+}
+
+    #innersmallBox2 {
+        height:70%;
+        width:70%;
+
+        position:relative;
+        top:10%;
+        left:50%;
+        transform: translate(-50%, 0);
+        background:turquoise;
+        opacity:0;
+
+        transition: opacity 0.5s ease-in-out 0s;
+
+    }
+
+
+#smallBox3 {
+    height:5%;
+    width:10%;
+    background:tomato;
+
+    position:absolute;
+    top:45%;
+    left:20%;
+
+    transition: top 0.5s ease-in-out, left 0.8s ease-in-out 0.8s, width 0.8s ease-in-out 0.8s, height 0.8s ease-in-out 0.8s;
+}
+
+    #innersmallBox3 {
+        height:70%;
+        width:70%;
+
+        position:relative;
+        top:10%;
+        left:50%;
+        transform: translate(-50%, 0);
+        background:turquoise;
+        opacity:0;
+
+        transition: opacity 0.5s ease-in-out 0s;
+
+    }
+
+#smallBox4 {
+    height:5%;
+    width:10%;
+    background:tomato;
+
+    position:relative;
+    top:55%;
+    left:20%;
+
+    transition: top 0.5s ease-in-out, left 0.8s ease-in-out 0.8s, width 0.8s ease-in-out 0.8s, height 0.8s ease-in-out 0.8s;
+}
+
+    #innersmallBox4 {
+        height:70%;
+        width:70%;
+
+        position:relative;
+        top:10%;
+        left:50%;
+        transform: translate(-50%, 0);
+        background:turquoise;
+        opacity:0;
+        transition: opacity 0.5s ease-in-out 0s;
+
+        
+    }
+
+    .textBox {
+        padding:2%;
+        background:rgba(163, 42, 42, 0.425);
+    }
+
+    .sponsorsBox {
+        height:40%;
+        width:70%;
+        position:absolute;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        opacity:1;
+
+        background:rgba(31, 50, 102, 0.712);
+    }
+
+
+    .sponsoreText {
+        font-size:200%;
+        color:rgb(20, 220, 187);
+        text-shadow:2px 2px rgb(9, 132, 136);
+        position:relative;
+        top:50%;
+        transform:translate(0,-50%);
+
+    }
+
+/*____________________________ANIMATIONS*/
+
+
+#smallBox1.active {
+    top:15%;
+    left:35%;
+
+    width:35%;
+    height:70%;
+
+}
+
+    #innersmallBox1.active {
+        opacity:1;
+        transition: opacity 0.5s ease-in-out 1.4s;
+    }
+
+#smallBox2.active {
+    top:15%;
+    left:35%;
+
+    width:35%;
+    height:70%;
+
+}
+
+    #innersmallBox2.active {
+        opacity:1;
+        transition: opacity 0.5s ease-in-out 1.4s;
+    }
+
+#smallBox3.active {
+    top:15%;
+    left:35%;
+
+    width:35%;
+    height:70%;
+
+}
+
+    #innersmallBox3.active {
+        opacity:1;
+        transition: opacity 0.5s ease-in-out 1.4s;
+    }
+
+#smallBox4.active {
+    top:15%;
+    left:35%;
+
+    width:35%;
+    height:70%;
+
+}
+
+    #innersmallBox4.active {
+        opacity:1;
+        transition: opacity 0.5s ease-in-out 1.4s;
+    }

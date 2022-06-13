@@ -1,0 +1,74 @@
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    background:black;
+}
+
+#containerBox {
+    height:100%;
+    width:100%;
+
+    position:fixed;
+    z-index:1;
+}
+
+#gurkyBox {
+    height:80%;
+    width:80%;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    z-index: 1;
+}
+
+#gurkyPigBox {
+    position:absolute;
+    height:25%;
+    width:auto;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+
+#textBox {
+    height:20%;
+    width:20%;
+    background:white;
+
+    position:absolute;
+    top:20%;
+    left:65%;
+    z-index: 1;
+}
+
+img {
+    height:100%;
+    width:auto;
+
+    z-index: 0;
+}
+
+.fishBox {
+    height:40%;
+    width:10%;
+    
+
+    position:absolute;
+    z-index: 0;
+
+}
+
+#chinaBox {
+    height:80%;
+    width:100%;
+    text-align:center;
+    transform:scale(-1);
+
+    position: absolute;
+    top:1600%;
+    z-index: 9999;
+}
